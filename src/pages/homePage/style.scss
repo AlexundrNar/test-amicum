@@ -1,0 +1,41 @@
+@import "@/style/variables.scss";
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  height: 100vh;
+
+  h1 {
+    font-size: 48px;
+    color: black;
+  }
+
+  h4 {
+    color: black;
+  }
+
+  h5 {
+    position: absolute;
+    bottom: 25%;
+    color: red;
+  }
+  input {
+    width: 400px;
+    padding: 16px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+
+  button {
+    width: 200px;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: white;
+    height: 53px;
+  }
+}

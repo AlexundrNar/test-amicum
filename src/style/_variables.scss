@@ -1,0 +1,32 @@
+// colors
+$white: #FFFFFF;
+$white-mud: #F2F2F2;
+$blue-mud: #56698f;
+$blue-dark: #353D54;
+$orange: #EF7F1A;
+$green: #B2D63C;
+
+// theme
+.light {
+  background-color: $white;
+  }
+
+.dark {
+  background-color: $blue-mud;
+}
+
+.lightpanel {
+  background-color: $white-mud;
+  span, svg {
+    color: $blue-mud;
+    fill: $blue-mud;
+  }
+}
+
+.darkpanel {
+  background-color: $blue-dark;
+  span, svg {
+    color: $white-mud;
+    fill: $white-mud;
+  }
+}

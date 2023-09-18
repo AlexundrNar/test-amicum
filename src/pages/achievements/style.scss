@@ -1,0 +1,15 @@
+@import "@/style/variables.scss";
+
+.achievements-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  height: 100vh;
+
+  h1 {
+    font-size: 48px;
+    color: black;
+  }
+}
